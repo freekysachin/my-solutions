@@ -3,6 +3,7 @@
 !backend/
 
 backend/*
+backend/utils/cloudinary.js
 !backend/server.js
 !backend/package.json
 !backend/package-lock.json
