@@ -28,6 +28,9 @@ app.use('/api', clientRoutes);
 app.use('/api', subscribeRoutes)
 app.use('/api',formRoutes )
 // app.use('api/admin', adminRoutes);
+app.get('/', (req,res)=>{
+    res.send('welcome to the Backend API');
+})
 
 module.exports = app;
 module.exports.handler = serverless(app)
