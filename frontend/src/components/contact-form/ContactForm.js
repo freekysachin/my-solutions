@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactForm() {
   return (
-    <div className='flex flex-col max-w-md px-10 gap-8 border py-6 bg-[#3F5574] text-white'>
+    <div className='flex flex-col max-w-[400px] px-10 gap-8 border py-6 bg-[#3F5574] text-white'>
       <div className='text-center text-4xl font-bold '>
         <h1>Get a Free Consultation</h1>
       </div>

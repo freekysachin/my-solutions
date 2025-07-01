@@ -1,12 +1,12 @@
 import './App.css';
-import ContactForm from './components/contact-form/ContactForm';
+import HeroFirst from './components/Hero-I/HeroFirst';
 import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <ContactForm />
+      <HeroFirst />
     </div>
   );
 }
