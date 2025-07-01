@@ -14,10 +14,10 @@ A full-stack business website with a modern landing page and integrated admin pa
 ## ✨ Features
 
 ### 🌐 Landing Page
-- 🧩 **Our Projects** – showcase featured work dynamically
-- 🤝 **Happy Clients** – highlight testimonials or partners
-- ✉️ **Contact Form** – users can submit queries directly
-- 📬 **Newsletter Subscription** – collect email subscribers
+- 🧩 **Our Projects** – showcase featured work dynamically (fetched from the Backend Server).
+- 🤝 **Happy Clients** – highlight testimonials or partners (fetched from the Backend Server).
+- ✉️ **Contact Form** – users can submit queries directly (Submits the form details to the Backend Server).
+- 📬 **Newsletter Subscription** – collect email subscribers (Submits the email to the Backend Server in the 'Subscriber' Collection). 
 
 ### 🔐 Admin Panel
 - 🛠️ Manage Projects and Clients
