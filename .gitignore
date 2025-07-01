@@ -1,9 +1,14 @@
+# Ignore everything by default
 /*
+
+# But allow .gitignore and backend + frontend folders
 !.gitignore
 !backend/
+!frontend/
 
+# --- BACKEND RULES ---
+# Ignore all in backend, then selectively allow
 backend/*
-backend/utils/cloudinary.js
 !backend/server.js
 !backend/package.json
 !backend/package-lock.json
@@ -12,3 +17,27 @@ backend/utils/cloudinary.js
 !backend/models/
 !backend/routes/
 !backend/utils/
+
+!backend/utils/cloudinary.js
+
+# --- FRONTEND RULES ---
+frontend/node_modules/
+frontend/.pnp/
+frontend/.pnp.js
+
+# Testing
+frontend/coverage/
+
+# Production
+frontend/build/
+
+# Misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
