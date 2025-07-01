@@ -12,3 +12,5 @@ backend/utils/cloudinary.js
 !backend/models/
 !backend/routes/
 !backend/utils/
+
+!frontend/
