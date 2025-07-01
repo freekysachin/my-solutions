@@ -10,7 +10,7 @@
 # Ignore all in backend, then selectively allow
 backend/*
 !public/
-!backend/server.js
+!backend/api/
 !backend/vercel.json
 !backend/package.json
 !backend/package-lock.json
