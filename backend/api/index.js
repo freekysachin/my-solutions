@@ -1,8 +1,3 @@
-// const multer = require('multer');
-// const {v2: cloudinary} = require('cloudinary');
-
-// const { CloudinaryStorage } = require('multer-storage-cloudinary');
-
 
 const express = require('express');
 require('dotenv').config();
@@ -14,7 +9,6 @@ const subscribeRoutes = require('../routes/subscribeRoutes.js')
 const formRoutes = require('../routes/contactForm.js')
 var cors = require('cors')
 
-const serverless = require('serverless-http');
 
 
 dbConnect()
@@ -32,5 +26,6 @@ app.get('/', (req,res)=>{
     res.send('welcome to the Backend API');
 })
 
+app.listen(process.env.PORT || 4000, () => console.log("Server ready on port 3000."));
+
 module.exports = app;
-module.exports.handler = serverless(app)

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = process.env.MONGODB_URI;
 
 const dbConnect = async ()=>{
     try {
@@ -10,7 +10,6 @@ const dbConnect = async ()=>{
         
     } catch (error) {
         console.log("Database connection failed", error);
-        process.exit(1);
     }
 }
 
