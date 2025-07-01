@@ -11,6 +11,7 @@
 backend/*
 !public/
 !backend/server.js
+!backend/vercel.json
 !backend/package.json
 !backend/package-lock.json
 !backend/controller/
