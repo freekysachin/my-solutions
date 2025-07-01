@@ -9,6 +9,7 @@
 # --- BACKEND RULES ---
 # Ignore all in backend, then selectively allow
 backend/*
+!public/
 !backend/server.js
 !backend/package.json
 !backend/package-lock.json
