@@ -10,7 +10,7 @@ function ContactForm() {
         <input placeholder='Mobile Number'/>
         <input placeholder='Area, City'/>
       </div>
-      <button>Get Quick Quote</button>
+      <button className='bg-orange-500'>Get Quick Quote</button>
     </div>
   )
 }
